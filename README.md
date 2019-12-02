@@ -1,14 +1,14 @@
-Bitcoin Core integration/staging tree
+ReBitcoin Core integration/staging tree
 =====================================
 
 
-What is Bitcoin?
+What is ReBitcoin?
 ----------------
 
-Bitcoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
+ReBitcoin is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. ReBitcoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Bitcoin Core is the name of open source
+out collectively by the network. ReBitcoin Core is the name of open source
 software which enables the use of this currency.
 
 [original whitepaper](https://bitcoincore.org/bitcoin.pdf).
