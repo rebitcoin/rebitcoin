@@ -53,7 +53,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
     const char* pszTimestamp = "02/Dec/2019 Bitcoin was reborn. Chop your own wood and it will warm you twice.";
-    const CScript genesisOutputScript = CScript() << ParseHex("04097fa34132d5421d44a3fdaf7e934831d2fe4c0545e82fb599546579c3f4c549fb3f6ecf2d420 58115851deb6cfaccc47c4254b73fb99cab3d0363e80c7ef056") << OP_CHECKSIG;
+    //const CScript genesisOutputScript = CScript() << ParseHex("043fca8c92127c70ee9b5f7588dcdabb1cfec0c7463f6d9a54c6ec3e37625be2b87bcb4d8c0782d0bca4793679047873a5df3b6b3c1827ced16e55940be5c17017") << OP_CHECKSIG;
+	const CScript genesisOutputScript = CScript() << ParseHex("04097fa34132d5421d44a3fdaf7e934831d2fe4c0545e82fb599546579c3f4c549fb3f6ecf2d420 58115851deb6cfaccc47c4254b73fb99cab3d0363e80c7ef056") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -106,6 +107,8 @@ public:
 
         genesis = CreateGenesisBlock(1575292468, 219523858, 0x1d00ffff, 1, 100 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
+		printf("consensus.hashGenesisBlock = %s\n", genesis.GetHash().ToString().c_str()); //temp
+		printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());//temp
         assert(consensus.hashGenesisBlock == uint256S("0x00000000d612b9200830f59536aa07b60e09c470d3a7c48c481fa7e51d1f38eb"));
         assert(genesis.hashMerkleRoot == uint256S("0x2a984d6c620b3420254e41bfc1971db00a2865292f28eb2c4940ad411ebc2585"));
 
