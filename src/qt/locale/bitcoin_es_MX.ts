@@ -66,8 +66,8 @@
         <translation>Direcciones de recibo</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones de Bitcoin para enviar pagos. Siempre revisa el monto y la dirección de envío antes de enviar monedas.</translation>
+        <source>These are your ReBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones de ReBitcoin para enviar pagos. Siempre revisa el monto y la dirección de envío antes de enviar monedas.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,8 +160,8 @@
         <translation>Confirmar la encriptación de cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REBITCOINS&lt;/b&gt;!</source>
+        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS REBITCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -220,7 +220,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>ReBitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;mensaje</translation>
@@ -310,8 +310,8 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar monedas a una dirección Bitcoin</translation>
+        <source>Send coins to a ReBitcoin address</source>
+        <translation>Enviar monedas a una dirección ReBitcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -354,8 +354,8 @@
         <translation>Cifre las claves privadas que pertenecen a su billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Firme mensajes con sus direcciones de Bitcoin para demostrar que los posee</translation>
+        <source>Sign messages with your ReBitcoin addresses to prove you own them</source>
+        <translation>Firme mensajes con sus direcciones de ReBitcoin para demostrar que los posee</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -503,8 +503,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>ReBitcoin</source>
+        <translation>ReBitcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -592,8 +592,8 @@
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ReBitcoin network.</source>
+        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de ReBitcoin.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -856,7 +856,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>rebitcoin-core</name>
     <message>
         <source>Verifying blocks...</source>
         <translation>Verificando bloques...</translation>

@@ -1,12 +1,12 @@
-// Copyright (c) 2011-2019 The Bitcoin Core developers
+// Copyright (c) 2011-2019 The ReBitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_SENDCOINSRECIPIENT_H
-#define BITCOIN_QT_SENDCOINSRECIPIENT_H
+#ifndef REBITCOIN_QT_SENDCOINSRECIPIENT_H
+#define REBITCOIN_QT_SENDCOINSRECIPIENT_H
 
 #if defined(HAVE_CONFIG_H)
-#include <config/bitcoin-config.h>
+#include <config/rebitcoin-config.h>
 #endif
 
 #include <amount.h>
@@ -71,4 +71,4 @@ public:
     }
 };
 
-#endif // BITCOIN_QT_SENDCOINSRECIPIENT_H
+#endif // REBITCOIN_QT_SENDCOINSRECIPIENT_H

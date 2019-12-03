@@ -1,18 +1,18 @@
-// Copyright (c) 2011-2016 The Bitcoin Core developers
+// Copyright (c) 2011-2016 The ReBitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_BITCOIN_H
-#define BITCOIN_QT_BITCOIN_H
+#ifndef REBITCOIN_QT_REBITCOIN_H
+#define REBITCOIN_QT_REBITCOIN_H
 
 #if defined(HAVE_CONFIG_H)
-#include <config/bitcoin-config.h>
+#include <config/rebitcoin-config.h>
 #endif
 
 #include <QApplication>
 #include <memory>
 
-class BitcoinGUI;
+class ReBitcoinGUI;
 class ClientModel;
 class NetworkStyle;
 class OptionsModel;
@@ -26,14 +26,14 @@ class Handler;
 class Node;
 } // namespace interfaces
 
-/** Class encapsulating Bitcoin Core startup and shutdown.
+/** Class encapsulating ReBitcoin Core startup and shutdown.
  * Allows running startup and shutdown in a different thread from the UI thread.
  */
-class BitcoinCore: public QObject
+class ReBitcoinCore: public QObject
 {
     Q_OBJECT
 public:
-    explicit BitcoinCore(interfaces::Node& node);
+    explicit ReBitcoinCore(interfaces::Node& node);
 
 public Q_SLOTS:
     void initialize();
@@ -51,13 +51,13 @@ private:
     interfaces::Node& m_node;
 };
 
-/** Main Bitcoin application object */
-class BitcoinApplication: public QApplication
+/** Main ReBitcoin application object */
+class ReBitcoinApplication: public QApplication
 {
     Q_OBJECT
 public:
-    explicit BitcoinApplication(interfaces::Node& node);
-    ~BitcoinApplication();
+    explicit ReBitcoinApplication(interfaces::Node& node);
+    ~ReBitcoinApplication();
 
 #ifdef ENABLE_WALLET
     /// Create payment server
@@ -84,7 +84,7 @@ public:
     /// Get process return value
     int getReturnValue() const { return returnValue; }
 
-    /// Get window identifier of QMainWindow (BitcoinGUI)
+    /// Get window identifier of QMainWindow (ReBitcoinGUI)
     WId getMainWinId() const;
 
     /// Setup platform style
@@ -100,14 +100,14 @@ Q_SIGNALS:
     void requestedInitialize();
     void requestedShutdown();
     void splashFinished();
-    void windowShown(BitcoinGUI* window);
+    void windowShown(ReBitcoinGUI* window);
 
 private:
     QThread *coreThread;
     interfaces::Node& m_node;
     OptionsModel *optionsModel;
     ClientModel *clientModel;
-    BitcoinGUI *window;
+    ReBitcoinGUI *window;
     QTimer *pollShutdownTimer;
 #ifdef ENABLE_WALLET
     PaymentServer* paymentServer{nullptr};
@@ -122,4 +122,4 @@ private:
 
 int GuiMain(int argc, char* argv[]);
 
-#endif // BITCOIN_QT_BITCOIN_H
+#endif // REBITCOIN_QT_REBITCOIN_H

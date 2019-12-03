@@ -1,9 +1,9 @@
-// Copyright (c) 2015-2018 The Bitcoin Core developers
+// Copyright (c) 2015-2018 The ReBitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_MEMUSAGE_H
-#define BITCOIN_MEMUSAGE_H
+#ifndef REBITCOIN_MEMUSAGE_H
+#define REBITCOIN_MEMUSAGE_H
 
 #include <indirectmap.h>
 
@@ -167,4 +167,4 @@ static inline size_t DynamicUsage(const std::unordered_map<X, Y, Z>& m)
 
 }
 
-#endif // BITCOIN_MEMUSAGE_H
+#endif // REBITCOIN_MEMUSAGE_H

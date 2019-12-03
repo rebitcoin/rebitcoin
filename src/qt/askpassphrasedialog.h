@@ -1,9 +1,9 @@
-// Copyright (c) 2011-2018 The Bitcoin Core developers
+// Copyright (c) 2011-2018 The ReBitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_ASKPASSPHRASEDIALOG_H
-#define BITCOIN_QT_ASKPASSPHRASEDIALOG_H
+#ifndef REBITCOIN_QT_ASKPASSPHRASEDIALOG_H
+#define REBITCOIN_QT_ASKPASSPHRASEDIALOG_H
 
 #include <QDialog>
 
@@ -53,4 +53,4 @@ protected:
     bool eventFilter(QObject *object, QEvent *event);
 };
 
-#endif // BITCOIN_QT_ASKPASSPHRASEDIALOG_H
+#endif // REBITCOIN_QT_ASKPASSPHRASEDIALOG_H

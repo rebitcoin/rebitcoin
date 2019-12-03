@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Copyright (c) 2019 The Bitcoin Core developers
+# Copyright (c) 2019 The ReBitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,6 +13,6 @@ export NO_DEPENDS=1
 export RUN_UNIT_TESTS=true
 export RUN_FUNCTIONAL_TESTS=false
 export GOAL="install"
-export BITCOIN_CONFIG="--enable-reduce-exports --with-incompatible-bdb"
+export REBITCOIN_CONFIG="--enable-reduce-exports --with-incompatible-bdb"
 
 lscpu

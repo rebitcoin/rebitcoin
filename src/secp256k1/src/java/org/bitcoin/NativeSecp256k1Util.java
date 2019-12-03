@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.bitcoin;
+package org.rebitcoin;
 
 public class NativeSecp256k1Util{
 

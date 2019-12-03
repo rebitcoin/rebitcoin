@@ -1,9 +1,9 @@
-// Copyright (c) 2016 The Bitcoin Core developers
+// Copyright (c) 2016 The ReBitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_WALLET_WALLETTOOL_H
-#define BITCOIN_WALLET_WALLETTOOL_H
+#ifndef REBITCOIN_WALLET_WALLETTOOL_H
+#define REBITCOIN_WALLET_WALLETTOOL_H
 
 #include <wallet/wallet.h>
 
@@ -16,4 +16,4 @@ bool ExecuteWalletToolFunc(const std::string& command, const std::string& file);
 
 } // namespace WalletTool
 
-#endif // BITCOIN_WALLET_WALLETTOOL_H
+#endif // REBITCOIN_WALLET_WALLETTOOL_H

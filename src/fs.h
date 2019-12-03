@@ -1,9 +1,9 @@
-// Copyright (c) 2017-2018 The Bitcoin Core developers
+// Copyright (c) 2017-2018 The ReBitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_FS_H
-#define BITCOIN_FS_H
+#ifndef REBITCOIN_FS_H
+#define REBITCOIN_FS_H
 
 #include <stdio.h>
 #include <string>
@@ -93,4 +93,4 @@ namespace fsbridge {
 #endif // WIN32 && __GLIBCXX__
 };
 
-#endif // BITCOIN_FS_H
+#endif // REBITCOIN_FS_H

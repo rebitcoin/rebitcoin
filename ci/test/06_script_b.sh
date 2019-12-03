@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Copyright (c) 2018 The Bitcoin Core developers
+# Copyright (c) 2018 The ReBitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,7 +8,7 @@ export LC_ALL=C.UTF-8
 
 # Temporarily disable errexit, because Travis macOS fails without error message
 set +o errexit
-cd "build/bitcoin-$HOST" || (echo "could not enter distdir build/bitcoin-$HOST"; exit 1)
+cd "build/rebitcoin-$HOST" || (echo "could not enter distdir build/rebitcoin-$HOST"; exit 1)
 set -o errexit
 
 if [ -n "$QEMU_USER_CMD" ]; then

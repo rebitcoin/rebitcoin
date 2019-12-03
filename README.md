@@ -1,20 +1,20 @@
-ReBitcoin Core integration/staging tree
+ReReBitcoin Core integration/staging tree
 =====================================
 
 
-What is ReBitcoin?
+What is ReReBitcoin?
 ----------------
 
-ReBitcoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. ReBitcoin uses peer-to-peer technology to operate
+ReReBitcoin is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. ReReBitcoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. ReBitcoin Core is the name of open source
+out collectively by the network. ReReBitcoin Core is the name of open source
 software which enables the use of this currency.
 
-[original whitepaper](https://bitcoincore.org/bitcoin.pdf).
+[original whitepaper](https://rebitcoincore.org/rebitcoin.pdf).
 
 License
 -------
 
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+ReBitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
