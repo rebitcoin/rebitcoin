@@ -348,10 +348,10 @@
 #define PACKAGE_TARNAME "rebitcoin"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "https://rebitcoincore.org/"
+#define PACKAGE_URL "https://rebitcoin.xyz/"
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "0.19.99"
+#define PACKAGE_VERSION "0.1.99"
 
 /* Define to necessary symbol if this constant uses a non-standard name on
    your system. */
