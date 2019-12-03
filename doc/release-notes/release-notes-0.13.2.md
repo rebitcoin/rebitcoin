@@ -1,6 +1,6 @@
 ReBitcoin Core version 0.13.2 is now available from:
 
-  <https://rebitcoin.org/bin/rebitcoin-core-0.13.2/>
+  <https://bitcoin.org/bin/rebitcoin-core-0.13.2/>
 
 This is a new minor version release, including various bugfixes and
 performance improvements, as well as updated translations.
@@ -11,7 +11,7 @@ Please report bugs using the issue tracker at github:
 
 To receive security and update notifications, please subscribe to:
 
-  <https://rebitcoincore.org/en/list/announcements/join/>
+  <https://bitcoincore.org/en/list/announcements/join/>
 
 Compatibility
 ==============

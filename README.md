@@ -11,7 +11,7 @@ with no central authority: managing transactions and issuing money are carried
 out collectively by the network. ReReBitcoin Core is the name of open source
 software which enables the use of this currency.
 
-[original whitepaper](https://rebitcoincore.org/rebitcoin.pdf).
+[original whitepaper](https://bitcoincore.org/rebitcoin.pdf).
 
 License
 -------

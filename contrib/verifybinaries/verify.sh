@@ -4,7 +4,7 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 ###   This script attempts to download the signature file SHA256SUMS.asc from
-###   rebitcoincore.org and rebitcoin.org and compares them.
+###   bitcoincore.org and bitcoin.org and compares them.
 ###   It first checks if the signature passes, and then downloads the files specified in
 ###   the file, and checks if the hashes of these files match those that are specified
 ###   in the signature file.
@@ -24,8 +24,8 @@ TMPFILE="hashes.tmp"
 
 SIGNATUREFILENAME="SHA256SUMS.asc"
 RCSUBDIR="test"
-HOST1="https://rebitcoincore.org"
-HOST2="https://rebitcoin.org"
+HOST1="https://bitcoincore.org"
+HOST2="https://bitcoin.org"
 BASEDIR="/bin/"
 VERSIONPREFIX="rebitcoin-core-"
 RCVERSIONSTRING="rc"

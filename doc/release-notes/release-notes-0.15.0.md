@@ -1,6 +1,6 @@
 ReBitcoin Core version *0.15.0* is now available from:
 
-  <https://rebitcoin.org/bin/rebitcoin-core-0.15.0/>
+  <https://bitcoin.org/bin/rebitcoin-core-0.15.0/>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.
@@ -11,7 +11,7 @@ Please report bugs using the issue tracker at GitHub:
 
 To receive security and update notifications, please subscribe to:
 
-  <https://rebitcoincore.org/en/list/announcements/join/>
+  <https://bitcoincore.org/en/list/announcements/join/>
 
 How to Upgrade
 ==============

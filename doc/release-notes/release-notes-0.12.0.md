@@ -1,6 +1,6 @@
 ReBitcoin Core version 0.12.0 is now available from:
 
-  <https://rebitcoin.org/bin/rebitcoin-core-0.12.0/>
+  <https://bitcoin.org/bin/rebitcoin-core-0.12.0/>
 
 This is a new major version release, bringing new features and other improvements.
 

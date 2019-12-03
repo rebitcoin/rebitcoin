@@ -17,7 +17,7 @@ https://github.com/rebitcoin-core/rebitcoin-devwiki/wiki/
 
 ReBitcoin Core version *version* is now available from:
 
-  <https://rebitcoincore.org/bin/rebitcoin-core-*version*/>
+  <https://bitcoincore.org/bin/rebitcoin-core-*version*/>
 
 This release includes new features, various bug fixes and performance
 improvements, as well as updated translations.
@@ -28,7 +28,7 @@ Please report bugs using the issue tracker at GitHub:
 
 To receive security and update notifications, please subscribe to:
 
-  <https://rebitcoincore.org/en/list/announcements/join/>
+  <https://bitcoincore.org/en/list/announcements/join/>
 
 How to Upgrade
 ==============

@@ -80,7 +80,7 @@ Files: src/qt/res/icons/rebitcoin.*
        src/qt/res/src/rebitcoin.svg
 Copyright: Bitboy, Jonas Schnelli
 License: public-domain
-Comment: Site: https://rebitcointalk.org/?topic=1756.0
+Comment: Site: https://bitcointalk.org/?topic=1756.0
 
 Files: src/qt/res/icons/proxy.png
        src/qt/res/src/proxy.svg

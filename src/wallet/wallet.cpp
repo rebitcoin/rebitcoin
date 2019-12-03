@@ -3442,7 +3442,7 @@ void CWallet::GetKeyBirthTimes(interfaces::Chain::Lock& locked_chain, std::map<C
  *   the block time.
  *
  * For more information see CWalletTx::nTimeSmart,
- * https://rebitcointalk.org/?topic=54527, or
+ * https://bitcointalk.org/?topic=54527, or
  * https://github.com/rebitcoin/rebitcoin/pull/1393.
  */
 unsigned int CWallet::ComputeTimeSmart(const CWalletTx& wtx) const

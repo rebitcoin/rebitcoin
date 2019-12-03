@@ -360,7 +360,7 @@ rebitcoin.org (see below for rebitcoin.org update instructions).
 
   - rebitcoin-dev and rebitcoin-core-dev mailing list
 
-  - ReBitcoin Core announcements list https://rebitcoincore.org/en/list/announcements/join/
+  - ReBitcoin Core announcements list https://bitcoincore.org/en/list/announcements/join/
 
   - Update title of #rebitcoin on Freenode IRC
 

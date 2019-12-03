@@ -1,6 +1,6 @@
 ReBitcoin Core version 0.9.4 is now available from:
 
-  https://rebitcoin.org/bin/0.9.4/
+  https://bitcoin.org/bin/0.9.4/
 
 This is a new minor version release, bringing only bug fixes and updated
 translations. Upgrading to this release is recommended.
@@ -25,7 +25,7 @@ various operating system maintainers. Review by Gregory Maxwell determined that
 this update is incompatible with the ReBitcoin system and could lead to consensus
 forks.
 
-ReBitcoin Core released binaries from https://rebitcoin.org are unaffected,
+ReBitcoin Core released binaries from https://bitcoin.org are unaffected,
 as are any built with the gitian deterministic build system.
 
 However, if you are running either
