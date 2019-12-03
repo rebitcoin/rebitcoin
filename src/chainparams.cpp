@@ -182,7 +182,7 @@ public:
         consensus.CSVHeight = 0; // 000000003295371a3b3f28eeb37d50876ef0073748688004fd04b0570b61e806
         consensus.SegwitHeight = 0; // 000000003295371a3b3f28eeb37d50876ef0073748688004fd04b0570b61e806
         consensus.MinBIP9WarningHeight = 0; // segwit activation height + miner confirmation window
-        consensus.powLimit = uint256S("00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+        consensus.powLimit = uint256S("00ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 10 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
