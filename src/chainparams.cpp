@@ -106,10 +106,8 @@ public:
 
         genesis = CreateGenesisBlock(1575292468, 219523858, 0x1d00ffff, 1, 100 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-		printf("consensus.hashGenesisBlock = %s\n", genesis.GetHash().ToString().c_str()); //temp
-		printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());//temp
-        assert(consensus.hashGenesisBlock == uint256S("0x71067c2cbcb141b9a1b5d284f776f03b9d4111bab348a128cc5be36d0fa6c354"));
-        assert(genesis.hashMerkleRoot == uint256S("0x623b5639df1178aac990ac8a3493a080386e7233f54b09537484a0bf14e14c21"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000000d612b9200830f59536aa07b60e09c470d3a7c48c481fa7e51d1f38eb"));
+        assert(genesis.hashMerkleRoot == uint256S("0x2a984d6c620b3420254e41bfc1971db00a2865292f28eb2c4940ad411ebc2585"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
         // possible options.
@@ -212,8 +210,8 @@ public:
 
         genesis = CreateGenesisBlock(1575315261, 130507217, 0x1d00ffff, 1, 100 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-		printf("consensus.hashGenesisBlock = %s\n", genesis.GetHash().ToString().c_str()); //temp
-		printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());//temp
+		//printf("consensus.hashGenesisBlock = %s\n", genesis.GetHash().ToString().c_str()); //temp
+		//printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());//temp
         assert(consensus.hashGenesisBlock == uint256S("0x000000003295371a3b3f28eeb37d50876ef0073748688004fd04b0570b61e806"));
         assert(genesis.hashMerkleRoot == uint256S("0x662da8d1b193ee5f8a0f13dba3b312575e240384d9ba5ec01935cd2e50ddd8d7"));
 
