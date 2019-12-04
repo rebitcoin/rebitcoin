@@ -342,7 +342,7 @@
 #define PACKAGE_NAME "ReBitcoin Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "ReBitcoin Core 0.19.99"
+#define PACKAGE_STRING "ReBitcoin Core 0.1.0"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "rebitcoin"
@@ -351,7 +351,7 @@
 #define PACKAGE_URL "https://rebitcoin.xyz/"
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "0.1.99"
+#define PACKAGE_VERSION "0.1.1"
 
 /* Define to necessary symbol if this constant uses a non-standard name on
    your system. */
