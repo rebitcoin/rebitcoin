@@ -101,7 +101,7 @@ public:
         pchMessageStart[3] = 0xdb;
         nDefaultPort = 9333;
         nPruneAfterHeight = 100000;
-        m_assumed_blockchain_size = 280;
+        m_assumed_blockchain_size = 10; // 280
         m_assumed_chain_state_size = 4;
 
         genesis = CreateGenesisBlock(1575292468, 219523858, 0x1d00ffff, 1, 100 * COIN);
