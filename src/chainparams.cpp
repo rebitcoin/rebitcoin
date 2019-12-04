@@ -210,10 +210,8 @@ public:
 
         genesis = CreateGenesisBlock(1575315261, 130507217, 0x1d00ffff, 1, 100 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-		//printf("consensus.hashGenesisBlock = %s\n", genesis.GetHash().ToString().c_str()); //temp
-		//printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());//temp
-        assert(consensus.hashGenesisBlock == uint256S("0x000000003295371a3b3f28eeb37d50876ef0073748688004fd04b0570b61e806"));
-        assert(genesis.hashMerkleRoot == uint256S("0x662da8d1b193ee5f8a0f13dba3b312575e240384d9ba5ec01935cd2e50ddd8d7"));
+        consensus.hashGenesisBlock == uint256S("0x000000003295371a3b3f28eeb37d50876ef0073748688004fd04b0570b61e806");//assert()
+        genesis.hashMerkleRoot == uint256S("0x662da8d1b193ee5f8a0f13dba3b312575e240384d9ba5ec01935cd2e50ddd8d7");//assert()
 
         vFixedSeeds.clear();
         vSeeds.clear();
