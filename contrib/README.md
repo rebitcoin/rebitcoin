@@ -24,10 +24,10 @@ Build Tools and Keys
 ### Packaging ###
 The [Debian](/contrib/debian) subfolder contains the copyright file.
 
-All other packaging related files can be found in the [rebitcoin-core/packaging](https://github.com/rebitcoin-core/packaging) repository.
+All other packaging related files can be found in the [rebitcoin/packaging](https://github.com/rebitcoin/rebitcoin) repository.
 
 ### [Gitian-descriptors](/contrib/gitian-descriptors) ###
-Files used during the gitian build process. For more information about gitian, see the [the ReBitcoin Core documentation repository](https://github.com/rebitcoin-core/docs).
+Files used during the gitian build process. For more information about gitian, see the [the ReBitcoin Core documentation repository](https://github.com/rebitcoin/rebitcoin).
 
 ### [Gitian-keys](/contrib/gitian-keys)
 PGP keys used for signing ReBitcoin Core [Gitian release](/doc/release-process.md) results.
@@ -45,4 +45,4 @@ Test and Verify Tools
 Utilities to generate test vectors for the data-driven ReBitcoin tests.
 
 ### [Verify Binaries](/contrib/verifybinaries) ###
-This script attempts to download and verify the signature file SHA256SUMS.asc from rebitcoin.org.
+This script attempts to download and verify the signature file SHA256SUMS.asc from rebitcoin.xyz.
