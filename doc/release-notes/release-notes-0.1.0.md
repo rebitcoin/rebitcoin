@@ -1,6 +1,6 @@
 ReBitcoin Core version 0.1.0 is now available from:
 
-  <https://rebitcoin.xyz/download/rebitcoin-core-0.1.1/>
+  <https://rebitcoin.xyz/download/rebitcoin-core-0.1.0/>
 
 This release includes new features, various bug fixes and performance
 improvements, as well as updated translations.
@@ -32,7 +32,7 @@ to use ReBitcoin Core on unsupported systems.
 ReBitcoin Core should also work on most other Unix-like systems but is not
 as frequently tested on them.
 
-From 0.17.0 onwards, macOS <10.10 is no longer supported. 0.17.0 is
+From 0.1.0 onwards, macOS <10.10 is no longer supported. 0.1.0 is
 built using Qt 5.9.x, which doesn't support versions of macOS older than
 10.10. Additionally, ReBitcoin Core does not yet change appearance when
 macOS "dark mode" is activated.
