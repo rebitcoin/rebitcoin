@@ -259,7 +259,7 @@
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;Около %1</translation>
+        <translation>&amp;Информация о %1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
@@ -3259,7 +3259,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Пожалуйста, внесите свой вклад, если вы найдете %s полезными. Посетите %s для получения дополнительной информации о программном обеспечении.</translation>
+        <translation>Следите за обновлениями %s. Посетите официальный сайт %s.</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
