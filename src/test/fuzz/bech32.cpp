@@ -28,7 +28,7 @@ void test_one_input(const std::vector<uint8_t>& buffer)
 
     std::vector<unsigned char> input;
     ConvertBits<8, 5, true>([&](unsigned char c) { input.push_back(c); }, buffer.begin(), buffer.end());
-    const std::string encoded = bech32::Encode("bc", input);
+    const std::string encoded = bech32::Encode("be", input);
     assert(!encoded.empty());
 
     const std::pair<std::string, std::vector<uint8_t>> r2 = bech32::Decode(encoded);
@@ -37,7 +37,7 @@ void test_one_input(const std::vector<uint8_t>& buffer)
     } else {
         const std::string& hrp = r2.first;
         const std::vector<uint8_t>& data = r2.second;
-        assert(hrp == "bc");
+        assert(hrp == "be");
         assert(data == input);
     }
 }

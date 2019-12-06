@@ -52,7 +52,7 @@ public:
     explicit ReBitcoinUnits(QObject *parent);
 
     /** ReBitcoin units.
-      @note Source: https://en.rebitcoin.it/wiki/Units . Please add only sensible ones
+      @note Source: https://en.bitcoin.it/wiki/Units . Please add only sensible ones
      */
     enum Unit
     {
