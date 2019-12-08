@@ -132,8 +132,7 @@ public:
 
         bech32_hrp = "be";
 
-        //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
-		vFixedSeeds.clear();
+        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
@@ -141,7 +140,7 @@ public:
 
         checkpointData = {
             {
-                { 1, uint256S("0x00000000381393a1f85252e824d9bbbae67e1aa517620520e9367905e6526348")}, //+ set in validation.h: static const bool DEFAULT_CHECKPOINTS_ENABLED = false;
+                { 1, uint256S("0x00000000381393a1f85252e824d9bbbae67e1aa517620520e9367905e6526348")}
             }
         };
 
