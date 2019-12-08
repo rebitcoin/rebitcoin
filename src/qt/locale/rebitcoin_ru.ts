@@ -845,7 +845,7 @@
     </message>
     <message>
         <source>About %1</source>
-        <translation>Около %1</translation>
+        <translation>О программе %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -892,7 +892,7 @@
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Как минимум %1 ГБ данных будет сохранен в эту директорию. Со временем размер будет увеличиваться.</translation>
+        <translation>Как минимум %1 ГБ данных будет сохранено в эту директорию. Со временем размер будет увеличиваться.</translation>
     </message>
     <message>
         <source>Approximately %1 GB of data will be stored in this directory.</source>
@@ -1985,11 +1985,11 @@
     </message>
     <message>
         <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
-        <translation>"Родные" segwit адреса (Bech32 или BIP-173) в дальнейшем уменьшат комиссии ваших транзакций и предоставят улучшенную защиту от опечаток, однако старые кошельки не поддерживают эти адреса. Если не выбрано, будет создан совместимый со старыми кошелёк.</translation>
+        <translation>Адреса Segwit (Bech32) сейчас поддерживаются не всеми участниками сети. Однако в дальнейшем Segwit (Bech32) адреса помогут снизить размер комиссии.</translation>
     </message>
     <message>
         <source>Generate native segwit (Bech32) address</source>
-        <translation>Создать "родной" segwit (Bech32) адрес </translation>
+        <translation>Создать Segwit (Bech32) адрес </translation>
     </message>
     <message>
         <source>Requested payments history</source>
