@@ -29,7 +29,6 @@ ExecStartPre=/bin/chgrp rebitcoin /etc/rebitcoin
 Type=forking
 PIDFile=/run/rebitcoind/rebitcoind.pid
 Restart=on-failure
-TimeoutStopSec=600
 
 # Directory creation and permissions
 ####################################
