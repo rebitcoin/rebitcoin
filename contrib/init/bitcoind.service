@@ -1,52 +1,53 @@
 # It is not recommended to modify this file in-place, because it will
 # be overwritten during package upgrades. If you want to add further
 # options or overwrite existing ones then use
-# $ systemctl edit rebitcoind.service
+# $ systemctl edit bitcoind.service
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/rebitcoin/rebitcoin.conf, but keep in mind those explicitly
+# /etc/bitcoin/bitcoin.conf, but keep in mind those explicitly
 # specified as arguments in ExecStart= will override those in the
 # config file.
 
 [Unit]
-Description=ReBitcoin daemon
+Description=Bitcoin daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/rebitcoind -daemon \
-                            -pid=/run/rebitcoind/rebitcoind.pid \
-                            -conf=/etc/rebitcoin/rebitcoin.conf \
-                            -datadir=/var/lib/rebitcoind
+ExecStart=/usr/bin/bitcoind -daemon \
+                            -pid=/run/bitcoind/bitcoind.pid \
+                            -conf=/etc/bitcoin/bitcoin.conf \
+                            -datadir=/var/lib/bitcoind
 
 # Make sure the config directory is readable by the service user
 PermissionsStartOnly=true
-ExecStartPre=/bin/chgrp rebitcoin /etc/rebitcoin
+ExecStartPre=/bin/chgrp bitcoin /etc/bitcoin
 
 # Process management
 ####################
 
 Type=forking
-PIDFile=/run/rebitcoind/rebitcoind.pid
+PIDFile=/run/bitcoind/bitcoind.pid
 Restart=on-failure
+TimeoutStopSec=600
 
 # Directory creation and permissions
 ####################################
 
-# Run as rebitcoin:rebitcoin
-User=rebitcoin
-Group=rebitcoin
+# Run as bitcoin:bitcoin
+User=bitcoin
+Group=bitcoin
 
-# /run/rebitcoind
-RuntimeDirectory=rebitcoind
+# /run/bitcoind
+RuntimeDirectory=bitcoind
 RuntimeDirectoryMode=0710
 
-# /etc/rebitcoin
-ConfigurationDirectory=rebitcoin
+# /etc/bitcoin
+ConfigurationDirectory=bitcoin
 ConfigurationDirectoryMode=0710
 
-# /var/lib/rebitcoind
-StateDirectory=rebitcoind
+# /var/lib/bitcoind
+StateDirectory=bitcoind
 StateDirectoryMode=0710
 
 # Hardening measures
