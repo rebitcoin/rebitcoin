@@ -727,7 +727,7 @@ static UniValue submitblock(const JSONRPCRequest& request)
     // We allow 2 arguments for compliance with BIP22. Argument 2 is ignored.
             RPCHelpMan{"submitblock",
                 "\nAttempts to submit new block to network.\n"
-                "See https://en.rebitcoin.it/wiki/BIP_0022 for full specification.\n",
+                "See https://en.bitcoin.it/wiki/BIP_0022 for full specification.\n",
                 {
                     {"hexdata", RPCArg::Type::STR_HEX, RPCArg::Optional::NO, "the hex-encoded block data to submit"},
                     {"dummy", RPCArg::Type::STR, /* default */ "ignored", "dummy value, for compatibility with BIP22. This value is ignored."},
